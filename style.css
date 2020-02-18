@@ -1,0 +1,23 @@
+body {
+    width: 1024px;
+    Margin: 0 auto;
+    background-color: rgb(233, 237, 241)
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    border: 3px dotted;
+    }
+.intro{
+    background-color: rgb(145, 197, 248)
+}
+.photo{
+    background-color: rgb(251, 252, 253)
+}
+.main {
+    background-color: rgb(212, 213, 218)   
+}
+img {
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
