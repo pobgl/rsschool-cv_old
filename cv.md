@@ -15,3 +15,8 @@ My specialty is mechanical engineer.
 
 I complited HTML&CSS course at CodeAcademy:
 [Codeacademy](https://www.codecademy.com/profiles/pobgl)
+
+### Language skills
+My English level - A2
+
+At my nowday work I have experience with working in global engenering team with communication on technical english.
