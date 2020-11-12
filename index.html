@@ -4,37 +4,110 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Condensed&display=swap" rel="stylesheet"> 
     <title>CV</title>
 </head>
 <body>
-    <header class="header">
-        <h1>CV</h1>
-        <div class="photo">
-            <img src="https://sun9-15.userapi.com/c855128/v855128058/99239/EFTUCB0-3g8.jpg"
-            alt="photo" width="320" height="180">
-        </div>
-        <div class="intro">
-            <h2>Gleb Pobezhimov</h2>
-            <h3>Contacts</h3>
-           <ul>
-                <li>Cell-phone: +79873254055</li>
-                <li><a href="mailto:pglb@yandex.ru">e-mail: pglb@yandex.ru</a></li>
-            </ul>
-        </div>
-    </header>
     <div class="main">
-        <h2>Summary</h2>
-        <p>I am beginner Web Developer from Russia. I am well motivated and self organize.
-            I want to improove my programming skills and learn JS at RS School.</p>
-        <h2>Skills</h2>
-        <p>Git, HTML, CSS, JS - basics</p>
-        <h2>Education</h2>
-        <p>My specialty is mechanical engineer.</p>
-        <p>I complited HTML&CSS course at CodeAcademy:<a href="https://www.codecademy.com/profiles/pobgl"> Codeacademy </a></p>>
-        <h2>Language skills</h2>
-        <p>My English level - A2</p> 
-        <p>At my nowday work I have experience with working in global engenering team
-            with communication on technical english.</p>
-    </div>
+        <div class="header">
+            <div class="photo">
+                <img class="main-image" src="CV.jpg" alt="photo">
+                <div class="intro">
+                    <div class="container">
+                        <h1><span>GLEB</span>
+                            <span>POBEZHIMOV</span>
+                        </h1>
+                        <h3>Beginner Front End Developer</h3>
+                    </div>                    
+                </div>
+            </div>
+            <div class="data">
+                <div class="contacts">
+                    <div class="contacts-header">
+                        <h2>Contacts</h2>
+                    </div>                   
+                    <div class="email">
+                        <img src="assets/email.png" alt="E-Mail" class="icons">
+                        <a href="mailto:pglb@yandex.ru">e-mail: pglb@yandex.ru</a>
+                    </div>
+                    <div class="phone">
+                        <img src="assets/phone.png" alt="Phone" class="icons">
+                       phone: (+7) 987-325-4055
+                    </div>
+                    <div class="github">
+                        <img src="assets/github.png" alt="GithHub" class="icons">
+                        <a href="https://github.com/pobgl">GitHub: @pobgl</a>
+                    </div>
+                    <div class="telegram">
+                        <img src="assets/telegram.png" alt="Telegram" class="icons">
+                        <a href="https://t.me/pobglb">Telegram</a>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="contacts-header">
+                        <h2>Skills</h2>
+                    </div>                   
+                    <div class="skills-list">
+                        <ul>
+                            <li>Git</li>
+                            <li>HTML, CSS, SASS</li>
+                            <li>JS - basics</li>
+                            <li>Project management</li>
+                            <li>SCRUM</li>
+                            <li>Time management</li>
+                        </ul>
+                    </div>
+                </div>          
+               
+            </div>
+        </div>
+        <div class="content">
+            <div class="summary">
+                <div class="summary-title">
+                    <h2>Summary</h2>
+                </div>
+                <div class="summary-content">
+                    <p>
+                        Lately I worked as a project manager for an international company but I'm fond of coding and now it's time to change my way.    
+                    </p>
+                    <p>
+                        Now I am beginner Web Developer. 
+                        I am well motivated and self organize. I want to improove my programming skills and learn JS at RS School.
+                    </p>
+                    <p>
+                        But most importantly - I really like writing code.
+                    </p>
+                </div>
+            </div>
+            <div class="education">
+                <div class="education-title">
+                   <h2>Education</h2> 
+                </div>
+                <div class="education-content">
+                    <p>
+                        My specialty is mechanical engineer. I wrote code for myself, but now I entered to the RS School and going to make coding my lifestyle.    
+                    </p>
+                    <p>
+                        I complited HTML&CSS course at <a href="https://www.codecademy.com/profiles/pobgl">CodeAcademy</a>
+                    </p>
+                    <p>
+                        Code examples at the repository <a href="https://github.com/pobgl">GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="language">
+                <div class="language-title">
+                    <h2>Language skills</h2>
+                </div>
+                <div class="language-content">
+                    <p>My English level - B1</p> 
+                    <p>I had a lot of technical English practice at my previous job and I'm able to communicate with English-speaking colleagues fluently.
+                        However, I always try to improve my level and looking for opportunities to do it.</p>
+                </div>
+            </div>            
+        </div>
+    </div>    
 </body>
 </html>
