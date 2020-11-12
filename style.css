@@ -1,23 +1,205 @@
-body {
-    width: 1024px;
-    Margin: 0 auto;
-    background-color: rgb(233, 237, 241)
-    box-sizing: border-box;
+:root {
+    font-size: 10px;
+  }
+  
+  * {
+    margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    border: 3px dotted;
-    }
-.intro{
-    background-color: rgb(145, 197, 248)
+    box-sizing: border-box;
+  }
+
+body {
+    max-width: 1200px;
+    Margin: 0 auto;
+    font-family: 'Oxygen';
+    border: npne;    
 }
-.photo{
-    background-color: rgb(251, 252, 253)
-}
+
 .main {
-    background-color: rgb(212, 213, 218)   
+    margin-top: 180px;
+    margin-bottom: 180px;
+    margin 0;
+    display: flex;
+    box-shadow: 8px 8px 10px 2px rgba(63, 63, 63, 0.268);
+    width: 100%;
 }
-img {
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 1600px;
+    width: 110rem;
+    background-color: rgb(80, 80, 80);
+}
+
+
+.photo{
     position: relative;
-    top: 0px;
-    left: 20px;
+    max-width: 100%; 
+    display: flex;
+    flex-direction: column;
+       
 }
+
+.main-image {
+   
+    display: flex;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;    
+    padding: 30px 15px 30px 55px;
+    
+}
+
+.icons {
+    width: 40px;
+    padding-right: 15px;
+}
+
+.container span {
+    display: block;
+}
+
+.intro {
+    
+    width: 100%;   
+    bottom: 0px; 
+    position: absolute;
+    background-color: rgba(64, 110, 226, 0.8);
+    
+   
+}
+
+h1 {
+    margin: 0;
+    font-size: 4.2rem;
+    display: inline-block;   
+}
+
+h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 2.4rem;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.8rem;
+}
+
+.contacts {
+    display: block;  
+    margin-bottom: 90px;  
+}
+
+.contacts-header {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: white;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: white;
+}
+
+.contacts div {
+    padding: 10px 0px;
+    color: white;
+    display: flex;
+    align-items: center; 
+    font-size: 1.8rem;   
+}
+
+.contacts div a {
+    text-decoration: none;
+    color: white;
+}
+
+.data {
+    padding: 40px 65px 40px 65px;
+}
+
+.content {
+    margin: 40px 65px 40px 65px;
+}
+
+.skills-list ul {
+   
+    width: 100%;
+    
+   
+    padding: 0;
+   
+}
+
+.skills-list ul li {
+    color: white;
+    width: 100%;
+    list-style: inside;
+    padding: 10px 0 10px 0;
+    font-size: 1.8rem;   
+}
+
+.content {
+    display: block;
+    width: 100%;
+}
+
+.summary-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
+}
+
+.summary  {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+}
+
+.education-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
+}
+
+.education  {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+}
+
+.language-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
+}
+
+.language  {
+    font-size: 1.8rem;
+}
+
+p {
+    padding: 10px 0;
+}
+
