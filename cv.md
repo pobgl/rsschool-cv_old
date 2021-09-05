@@ -10,9 +10,9 @@ e-mail: *[pglb@yandex.ru](mailto:pglb@yandex.ru)*
 > I am beginner Web Developer from Russia. Recently I have been working as a project manager for an international company. I want to improve my programming skills and learn JS at RS School.
 
 ### Skills
-> Git
-> HTML, CSS, SASS
-> JS
+> Git\
+> HTML, CSS, SASS\
+> JS\
 > Project management
 
 ### Education
