@@ -19,7 +19,7 @@ body {
     max-width: 1200px;
     Margin: 0 auto;
     font-family: 'Oxygen';
-    border: npne;    
+    border: none;    
 }
 
 .main {
@@ -27,9 +27,15 @@ body {
     margin-bottom: 180px;
     margin 0;
     display: flex;
+    flex-direction: column;
     box-shadow: 8px 8px 10px 2px rgba(63, 63, 63, 0.268);
     width: 100%;
     background-color: rgba(253, 253, 253, 0.9);
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
 }
 
 .header {
@@ -211,5 +217,37 @@ h2 {
 
 p {
     padding: 10px 0;
+}
+
+.footer {
+    width: 100%;
+    border-style: solid;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;    
+    border-color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(63, 134, 160, 0.5);
+    max-height: 75px;
+}
+
+.rs-school-image {
+    display: flex;
+    max-width: 150px;
+    margin: 4px 0px 4px 40px;
+    width: 100%;
+}
+
+.rs-school-link {
+    margin-right: 40px;
+    display: flex;    
+}
+
+.rs-school-link a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
 }
 
