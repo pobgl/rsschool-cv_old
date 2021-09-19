@@ -23,8 +23,7 @@ body {
 }
 
 .main {
-    margin-top: 60px;
-    margin-bottom: 180px;
+    margin-top: 60px;    
     margin 0;
     display: flex;
     flex-direction: column;
@@ -123,12 +122,16 @@ h2 {
     border-color: rgb(253, 253, 253);
 }
 
-.contacts div {
+.contacts div {    
     padding: 10px 0px;
     color: white;
     display: flex;
     align-items: center; 
     font-size: 1.8rem;   
+}
+
+.contacts ul {
+    list-style: none;
 }
 
 .contacts div a {
@@ -221,6 +224,7 @@ p {
 
 .footer {
     width: 100%;
+    margin-bottom: 40px; 
     border-style: solid;
     border-bottom: 2px;
     border-left: 2px;
@@ -243,6 +247,11 @@ p {
 .rs-school-link {
     margin-right: 40px;
     display: flex;    
+}
+
+.year {
+    font-size: 2.4rem;
+    color: rgb(253, 253, 253);
 }
 
 .rs-school-link a {
