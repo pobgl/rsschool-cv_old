@@ -216,10 +216,26 @@ h2 {
 
 .language  {
     font-size: 1.8rem;
+    margin-bottom: 60px;
 }
 
-p {
+p {    
     padding: 10px 0;
+}
+
+.code_example {
+    
+}
+
+.code_example-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
 }
 
 .footer {
@@ -234,19 +250,19 @@ p {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(63, 134, 160, 0.5);
-    max-height: 75px;
+    height: 75px;
 }
 
 .rs-school-image {
     display: flex;
     max-width: 150px;
-    margin: 4px 0px 4px 40px;
+    margin-left: 20px;
     width: 100%;
+    cursor: pointer;
 }
 
-.rs-school-link {
-    margin-right: 40px;
-    display: flex;    
+.rs-school-image img {
+    height: 45px;
 }
 
 .year {
@@ -254,9 +270,15 @@ p {
     color: rgb(253, 253, 253);
 }
 
-.rs-school-link a {
+.github-link {
+    margin-right: 40px;
+}
+
+.github-link a {    
+    text-decoration: none;    
     font-size: 2.2rem;
     text-decoration: none;
     color: rgb(253, 253, 253);
+    cursor: pointer;    
 }
 
