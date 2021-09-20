@@ -282,3 +282,7 @@ p {
     cursor: pointer;    
 }
 
+code {    
+    font-size: 2rem;      
+}
+
