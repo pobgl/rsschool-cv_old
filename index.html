@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Condensed&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/default.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
     <title>CV</title>
@@ -133,22 +133,23 @@
                 <article class="code_example">
                     <div class="code_example-title">
                         <img src="assets/arrow.png" alt="Arrow" class="icons">
-                        <h2>Code example</h2>
+                        <h2>Code examples</h2>
                     </div>
                     <section class="code_example-content">
                         <pre>
-                            <code>
-                                function count (string) {  
-                                    let returnObj = {};
-                                    for (const symbol of string) {
-                                      if (returnObj.hasOwnProperty(symbol)) {
-                                        returnObj[symbol] += 1;
-                                      } else {
-                                        returnObj[symbol] = 1;
-                                      }
-                                    }
-                                    return returnObj;
-                                }
+                            <code class="js">
+function digital_root(n) {
+    let res = 0;
+    String(n).split('').map(num => {
+        res += Number(num) * 1;
+    });
+    
+    if (res > 9) {
+        return digital_root(res);
+    } else {
+    return res; 
+    }
+}
                             </code>
                         </pre>
                     </section>
