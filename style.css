@@ -23,8 +23,7 @@ body {
 }
 
 .main {
-    margin-top: 60px;
-    margin-bottom: 180px;
+    margin-top: 60px;    
     margin 0;
     display: flex;
     flex-direction: column;
@@ -123,12 +122,16 @@ h2 {
     border-color: rgb(253, 253, 253);
 }
 
-.contacts div {
+.contacts div {    
     padding: 10px 0px;
     color: white;
     display: flex;
     align-items: center; 
     font-size: 1.8rem;   
+}
+
+.contacts ul {
+    list-style: none;
 }
 
 .contacts div a {
@@ -213,14 +216,43 @@ h2 {
 
 .language  {
     font-size: 1.8rem;
+    margin-bottom: 60px;
 }
 
-p {
+p {    
     padding: 10px 0;
+}
+
+.my_projects-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
+} 
+
+.my_projects {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+}
+
+.code_example-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
 }
 
 .footer {
     width: 100%;
+    margin-bottom: 40px; 
     border-style: solid;
     border-bottom: 2px;
     border-left: 2px;
@@ -230,24 +262,39 @@ p {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(63, 134, 160, 0.5);
-    max-height: 75px;
+    height: 75px;
 }
 
 .rs-school-image {
     display: flex;
     max-width: 150px;
-    margin: 4px 0px 4px 40px;
+    margin-left: 20px;
     width: 100%;
+    cursor: pointer;
 }
 
-.rs-school-link {
+.rs-school-image img {
+    height: 45px;
+}
+
+.year {
+    font-size: 2.4rem;
+    color: rgb(253, 253, 253);
+}
+
+.github-link {
     margin-right: 40px;
-    display: flex;    
 }
 
-.rs-school-link a {
+.github-link a {    
+    text-decoration: none;    
     font-size: 2.2rem;
     text-decoration: none;
     color: rgb(253, 253, 253);
+    cursor: pointer;    
+}
+
+code {    
+    font-size: 2rem;      
 }
 

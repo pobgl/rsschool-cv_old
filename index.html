@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/default.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
     <title>CV</title>
 </head>
 <body>
     <div class="main">
         <div class="main-wrapper">
-            <div class="header">
+            <header class="header">
                 <div class="photo">
                     <img class="main-image" src="CV.jpg" alt="photo">
                     <div class="intro">
@@ -29,23 +34,33 @@
                         <div class="contacts-header">
                             <img src="assets/arrow.png" alt="Arrow" class="icons">
                             <h2>Contacts</h2>
-                        </div>                   
-                        <div class="email">
-                            <img src="assets/email.png" alt="E-Mail" class="icons">
-                            <a href="mailto:pglb@yandex.ru">e-mail: pglb@yandex.ru</a>
                         </div>
-                        <div class="phone">
-                            <img src="assets/phone.png" alt="Phone" class="icons">
-                           phone: (+7) 937-225-3745
-                        </div>
-                        <div class="github">
-                            <img src="assets/github.png" alt="GithHub" class="icons">
-                            <a href="https://github.com/pobgl">GitHub: @pobgl</a>
-                        </div>
-                        <div class="telegram">
-                            <img src="assets/telegram.png" alt="Telegram" class="icons">
-                            <a href="https://t.me/pobglb">Telegram</a>
-                        </div>
+                        <ul>
+                            <li>
+                                <div class="email">
+                                    <img src="assets/email.png" alt="E-Mail" class="icons">
+                                    <a href="mailto:pglb@yandex.ru">e-mail: pglb@yandex.ru</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="phone">
+                                    <img src="assets/phone.png" alt="Phone" class="icons">
+                                   phone: (+7) 937-225-3745
+                                </div>
+                            </li>
+                            <li>
+                                <div class="github">
+                                    <img src="assets/github.png" alt="GithHub" class="icons">
+                                    <a href="https://github.com/pobgl">GitHub: @pobgl</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="telegram">
+                                    <img src="assets/telegram.png" alt="Telegram" class="icons">
+                                    <a href="https://t.me/pobglb">Telegram</a>
+                                </div>
+                            </li>
+                        </ul>                       
                     </div>
                     <div class="skills">
                         <div class="contacts-header">
@@ -65,14 +80,14 @@
                     </div>          
                    
                 </div>
-            </div>
-            <div class="content">
-                <div class="summary">
+            </header>
+            <main class="content">
+                <article class="summary">
                     <div class="summary-title">
                         <img src="assets/arrow.png" alt="Arrow" class="icons">
                         <h2>Summary</h2>
                     </div>
-                    <div class="summary-content">
+                    <section class="summary-content">
                         <p>
                             Recently I have been working as a project manager for an international company but I'm fond of coding and now it's time to change my way.    
                         </p>
@@ -83,14 +98,14 @@
                         <p>
                             But most importantly - I really enjoy writing code.
                         </p>
-                    </div>
-                </div>
-                <div class="education">
+                    </section>
+                </article>
+                <article class="education">
                     <div class="education-title">
                         <img src="assets/arrow.png" alt="Arrow" class="icons">
                        <h2>Education</h2> 
                     </div>
-                    <div class="education-content">
+                    <section class="education-content">
                         <p>
                             My specialty is mechanical engineer. I wrote code for myself, but now I entered to the RS School and going to make coding my lifestyle.    
                         </p>
@@ -99,31 +114,75 @@
                         </p>
                         <p>
                             I completed RS-School JS/FE 2020 Q3 <a href="https://app.rs.school/certificate/763k846z">Certificate</a>
+                        </p>
                         <p>
                             Code examples at the repository <a href="https://github.com/pobgl">GitHub</a>
                         </p>
-                    </div>
-                </div>
-                <div class="language">
+                    </section>
+                </article>
+                <article class="language">
                     <div class="language-title">
                         <img src="assets/arrow.png" alt="Arrow" class="icons">
                         <h2>Language skills</h2>
                     </div>
-                    <div class="language-content">
-                        <p>My English level - B1</p> 
+                    <section class="language-content">
+                        <h4>My English level - B1</h4> 
                         <p>I had a lot of technical English practice as a project manager in mechanical engineering sphere. However, I always try to improve my level and looking for opportunities to do it.</p>
+                    </section>
+                </article>
+                <article class="my_projects">
+                    <div class="my_projects-title">
+                        <img src="assets/arrow.png" alt="Arrow" class="icons">
+                       <h2>Projects</h2> 
                     </div>
-                </div>            
+                    <section class="my_projects-content">                        
+                        <p>
+                            Final team project for JS/FE 2020 Q3 - <a href="https://roadtothefuture-rsclone.netlify.app/" target="_blank">RSClone.</a> We used: JS, MUI, Firebase Realtime, Webpack
+                        </p>
+                        <p>
+                            Covid-19 dashboard - <a href="https://rolling-scopes-school.github.io/pobgl-JS2020Q3/covid-dashboard/" target="_blank">Covid-19.</a> Used: JS, SASS, Webpack
+                        </p>                        
+                    </section>
+                </article>
+                <article class="code_example">
+                    <div class="code_example-title">
+                        <img src="assets/arrow.png" alt="Arrow" class="icons">
+                        <h2>Code examples</h2>
+                    </div>
+                    <section class="code_example-content">
+                        <pre>
+                            <code class="js">
+function digital_root(n) {
+    let res = 0;
+    String(n).split('').map(num => {
+        res += Number(num) * 1;
+    });
+    
+    if (res > 9) {
+        return digital_root(res);
+    } else {
+    return res; 
+    }
+}
+                            </code>
+                        </pre>
+                    </section>
+                </article>              
             </div>
         </div>        
-        <div class="footer">
+        <footer class="footer">
             <div class="rs-school-image">
-                <img class="rs-school-image" src="https://rs.school/images/rs_school_js.svg" alt="RS-School_logo">
+                <a href="https://rs.school/js/" target="_blank"><img class="rs-school-image" src="https://rs.school/images/rs_school_js.svg" alt="RS-School_logo"></a>                
+            </div>
+            <div class="year">
+                <h6>© 2021 by pobgl</h6>                
+            </div>           
+            <div class="github-link">                
+                <a href="https://github.com/pobgl" target="_blank">
+                    <h5>GitHub</h5>
+                </a>
             </div>            
-            <div class="rs-school-link">
-                <a href="https://rs.school/js/">RS-School</a>
-            </div>            
-        </div>
+        </footer>
     </div>    
 </body>
 </html>
