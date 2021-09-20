@@ -1,0 +1,297 @@
+:root {
+    font-size: 10px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+
+}
+
+html {
+    background-image: url(assets/background.jpeg);
+    background-repeat: inherit;
+}
+
+body {
+    max-width: 1200px;
+    Margin: 0 auto;
+    font-family: 'Oxygen';
+    border: none;    
+}
+
+.main-wrapper {
+    margin-top: 60px;    
+    margin 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 10px 2px rgba(63, 63, 63, 0.268);
+    width: 100%;
+    background-color: rgba(253, 253, 253, 0.9);
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 1600px;
+    width: 110rem;
+    background-color: rgba(51, 52, 65, 0.9);
+}
+
+
+.photo{
+    position: relative;
+    max-width: 100%; 
+    display: flex;
+    flex-direction: column;
+       
+}
+
+.main-image {
+   
+    display: flex;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color:rgb(253, 253, 253);    
+    padding: 30px 15px 30px 55px;
+    
+}
+
+.icons {
+    width: 40px;
+    padding-right: 15px;
+}
+
+.container span {
+    display: block;
+}
+
+.intro {
+    
+    width: 100%;   
+    bottom: 0px; 
+    position: absolute;
+    background-color: rgba(63, 134, 160, 0.8);
+    
+   
+}
+
+h1 {
+    margin: 0;
+    font-size: 4.2rem;
+    display: inline-block;   
+}
+
+h3 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 2.4rem;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.8rem;
+}
+
+.contacts {
+    display: block;  
+    margin-bottom: 90px;  
+}
+
+.contacts-header {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(253, 253, 253);
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(253, 253, 253);
+}
+
+.contacts div {    
+    padding: 10px 0px;
+    color: white;
+    display: flex;
+    align-items: center; 
+    font-size: 1.8rem;   
+}
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts div a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+
+.data {
+    padding: 40px 65px 40px 65px;
+    
+}
+
+.content {
+    margin: 40px 65px 40px 65px;
+   
+}
+
+.skills-list ul {
+   
+    width: 100%;
+    
+   
+    padding: 0;
+   
+}
+
+.skills-list ul li {
+    color:rgb(253, 253, 253);
+    width: 100%;
+    list-style: inside;
+    padding: 10px 0 10px 0;
+    font-size: 1.8rem;   
+}
+
+.content {
+    display: block;
+    width: 100%;
+}
+
+.summary-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
+}
+
+.summary  {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+}
+
+.education-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
+}
+
+.education  {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+}
+
+.language-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
+}
+
+.language  {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+}
+
+p {    
+    padding: 10px 0;
+}
+
+.my_projects-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
+} 
+
+.my_projects {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+}
+
+.code_example-title {
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 0px;
+    color: rgb(44, 40, 40);;
+    border-style: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(44, 40, 40);
+}
+
+.footer {
+    width: 100%;
+    margin-bottom: 40px; 
+    border-style: solid;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;    
+    border-color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(63, 134, 160, 0.5);
+    height: 75px;
+}
+
+.rs-school-image {
+    display: flex;
+    max-width: 150px;
+    margin-left: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rs-school-image img {
+    height: 45px;
+}
+
+.year {
+    font-size: 2.4rem;
+    color: rgb(253, 253, 253);
+}
+
+.github-link {
+    margin-right: 40px;
+}
+
+.github-link a {    
+    text-decoration: none;    
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    cursor: pointer;    
+}
+
+code {    
+    font-size: 2rem;      
+}
+
